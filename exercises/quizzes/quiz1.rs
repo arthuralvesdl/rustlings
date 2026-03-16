@@ -16,6 +16,10 @@ fn main() {
     // You can optionally experiment here.
 }
 
+fn calculate_price_of_apples(qnt: u8) -> u8 {
+    if qnt > 40 { qnt } else { qnt * 2 }
+}
+
 // Don't change the tests!
 #[cfg(test)]
 mod tests {
